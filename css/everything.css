@@ -1,0 +1,125 @@
+body {
+    background-image: url("background2.jpg");
+  }
+  a {
+    display: block;
+    background-color: #013334;
+    transition-duration: 1s;
+  }
+  #navbar {
+    background-color: #013334;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 0.5vw;
+    width: 100% !important;
+    font-size:2.7vw !important;
+  }
+  #navbar ul {
+    list-style-type: none;
+    text-align: center;
+    table-layout: fixed;
+    display: table;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  #navbar ul li {
+    vertical-align: middle;
+    display: table-cell;
+  }
+  #navbar a {
+    text-decoration: none;
+    color: #ffff80;
+    padding: 15px 10px;
+    background-color: #013334;
+    font-size: 25px;
+    font-family: Courier New;
+  }
+  #navbar ul li a:hover {
+    color: #ff80c4;
+    background-color: #c2d6d6;
+  }
+  
+  #navbar #currentpage a {
+    color: black;
+    text-decoration: line-through;
+    background-color: #c2d6d6;
+  }
+
+.websiteAim{
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 3% !important;
+  padding-right: 3% !important;
+  border: 1px solid #ff80c4;
+  padding: 10px;
+  box-shadow: 5px 10px #ff80c4;}
+
+.recipesContainer{
+  margin-top: 2%;
+}
+
+#footer {
+  background-color: #003333;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 0.7vw;
+}
+#footer ul {
+  list-style-type: none;
+  text-align: center;
+  table-layout: fixed;
+  display: table;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+#footer ul li {
+  vertical-align: middle;
+  display: table-cell;
+}
+#footer a {
+  text-decoration: none;
+  color: #ffff80;
+  padding: 15px 10px;
+  background-color: #013334;
+  font-size: 25px;
+  font-family: Courier New;
+}
+#footer ul li a:hover {
+  color: #ff80c4;
+  background-color: #c2d6d6;
+}
+
+#footer #currentpage a {
+  color: #013334;
+  text-decoration: line-through;
+  background-color: #c2d6d6;
+}
+
+.card-img-top{
+    height: 280px;
+    width: 260px;
+  }
+  @media only screen and (max-width: 1010px) {
+    a{
+     font-size: 20px !important;
+    }
+  }
+
+  .btn{
+      font-size: 2vw !important;
+      min-width: 2vw;
+  }
+
+  .buton {
+    color: #c2d6d6;
+    background-color: #013334;
+    border-color: #ffff80;
+  }
+
+  .buton:hover {
+    color:#013334;
+    background-color: #ffff80;
+  }
